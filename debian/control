@@ -1,0 +1,12 @@
+Source: ros-hydro-kobuki-soft
+Section: misc
+Priority: extra
+Maintainer: "Jihoon Lee <jihoonl@yujinrobot.com>"
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: http://ros.org/wiki/kobuki
+Standards-Version: 3.9.2
+
+Package: ros-hydro-kobuki-soft
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-kobuki-softapps, ros-hydro-kobuki-softnode
+Description: Soft kobuki impementation meta package
