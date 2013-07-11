@@ -1,0 +1,12 @@
+Source: ros-hydro-kobuki-softapps
+Section: misc
+Priority: extra
+Maintainer: "Jihoon Lee <jihoonl@yujinrobot.com>"
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-kobuki-softapps
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-fake-localization, ros-hydro-kobuki-softnode, ros-hydro-map-server, ros-hydro-move-base, ros-hydro-rviz
+Description: The kobuki_softapps package
