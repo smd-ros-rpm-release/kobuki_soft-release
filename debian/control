@@ -1,0 +1,12 @@
+Source: ros-hydro-kobuki-softnode
+Section: misc
+Priority: extra
+Maintainer: "Jihoon Lee <jihoonl@yujinrobot.com>"
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-kobuki-msgs, ros-hydro-nav-msgs, ros-hydro-nodelet, ros-hydro-roscpp, ros-hydro-sensor-msgs, ros-hydro-tf
+Homepage: http://ros.org/wiki/kobuki
+Standards-Version: 3.9.2
+
+Package: ros-hydro-kobuki-softnode
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-diagnostic-aggregator, ros-hydro-geometry-msgs, ros-hydro-kobuki-description, ros-hydro-kobuki-msgs, ros-hydro-nav-msgs, ros-hydro-nodelet, ros-hydro-robot-state-publisher, ros-hydro-roscpp, ros-hydro-sensor-msgs, ros-hydro-tf, ros-hydro-yujin-maps
+Description: ROS nodelet for fake Kobuki.
