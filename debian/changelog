@@ -1,0 +1,18 @@
+ros-indigo-kobuki-softnode (0.1.0-0saucy) saucy; urgency=high
+
+  * add message dependency
+  * Contributors: Jihoon Lee
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Thu, 07 Aug 2014 15:00:00 -0000
+
+ros-indigo-kobuki-softnode (0.0.1-0saucy) saucy; urgency=high
+
+  * getting ready for relese. all dependencies are resolved
+  * metapcakge
+  * restructuring
+  * collected the kobuki_softnode
+  * Contributors: Jihoon Lee
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Wed, 10 Jul 2013 15:00:00 -0000
+
+
