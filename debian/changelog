@@ -1,0 +1,24 @@
+ros-indigo-kobuki-softapps (0.1.1-0trusty) trusty; urgency=high
+
+  * add delta params close #1 <https://github.com/yujinrobot/kobuki_soft/issues/1>
+  * Contributors: Jihoon Lee
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Thu, 11 Dec 2014 15:00:00 -0000
+
+ros-indigo-kobuki-softapps (0.1.0-0trusty) trusty; urgency=high
+
+  * use dwa planner
+  * Contributors: Jihoon Lee
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Thu, 07 Aug 2014 15:00:00 -0000
+
+ros-indigo-kobuki-softapps (0.0.1-0trusty) trusty; urgency=high
+
+  * still waiting for navigation
+  * metapcakge
+  * restructuring
+  * Contributors: Jihoon Lee
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Wed, 10 Jul 2013 15:00:00 -0000
+
+
